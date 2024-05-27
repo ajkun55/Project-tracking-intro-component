@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="./styles.css" class="css">
+</head>
+<body>
+  <main>
+    <header> 
+      <div class="container row">          
+          <a class="logo" href="#">
+              <img src="./images/logo.svg" alt="">
+          </a>
+          <button class="nav-toggle" aria-label="open navigation">
+            <img src="./images/icon-hamburger.svg" alt="" class="hamburger">
+            <img src="./images/icon-close.svg" alt="" class="close hidden">
+          </button>
+          <nav class="nav">
+              <ul class="nav__list nav__list--primary">
+                  <li class="nav__item"><a href="#" class="nav__link">Products</a></li>
+                  <li class="nav__item"><a href="#" class="nav__link">Features</a></li>
+                  <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+              </ul>
+              <ul class="nav__list nav__list--secondary">
+                  <li class="nav__item"><a href="#" class="nav__link">Log In</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+  
+  <section class="hero">
+      <div class="row">
+        <img src="./images/illustration-devices.svg" alt="UX design sketches" class="hero__img">
+          <div class="hero__text">              
+              <p><span class="new">New</span><span class="secondary-text">Monograph Dashboard</span></p>
+              <h1>Powerful insights into your team</h1>
+              <p class="maintext">Project planning and time tracking for agile teams</p>
+              <div class="last-row">
+                <button>Schedule a demo</button>
+                <p class="secondary-text">to see a live preview</p>
+              </div>
+          </div>          
+      </div>
+  </section> 
+
+  </main>
+  
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/ajkun55/Project-tracking-intro-component">John A</a>.
+    </p>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html>
